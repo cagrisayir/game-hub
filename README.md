@@ -1,3 +1,3 @@
 # game-hub
 
-You can access fineshed website on: https://gamehub.cagrisayir.dev/ 
+You can access the finished website at: https://gamehub.cagrisayir.dev/ 
