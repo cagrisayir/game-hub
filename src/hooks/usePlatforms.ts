@@ -1,6 +1,6 @@
-import useData, { FetchResponse } from './useData';
 import apiClient from '../services/api-client';
 import { useQuery } from '@tanstack/react-query';
+import { FetchResponse } from '../types';
 
 export interface Platform {
 	id: number;
