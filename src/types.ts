@@ -19,9 +19,16 @@ export interface Platform {
 export interface Game {
 	id: number;
 	name: string;
+	genres: Genre[];
+	publishers: Publisher[];
 	slug: string;
 	background_image: string;
 	description_raw: string;
 	parent_platforms: { platform: Platform }[];
 	metacritic: number;
+}
+
+export interface Publisher {
+	id: number;
+	name: string;
 }
